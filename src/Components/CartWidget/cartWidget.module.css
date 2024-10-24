@@ -1,0 +1,6 @@
+.carros{
+    font-size: 1.5rem;
+}
+.carros a:hover{
+    color: rgb(0, 206, 0);
+}

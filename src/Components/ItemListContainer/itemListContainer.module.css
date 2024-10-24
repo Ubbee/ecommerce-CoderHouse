@@ -1,0 +1,13 @@
+section div p {
+    text-align: center;
+    color: black;
+    margin: 30px;
+}
+
+section h1 {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+

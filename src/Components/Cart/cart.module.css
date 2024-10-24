@@ -1,0 +1,107 @@
+.tabla {
+    width: 80%;
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabla tr td {
+    margin: 0;
+}
+
+.tabla th,
+.tabla td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabla th {
+    background-color: #00457e;
+    color: white;
+    padding: 10px;
+}
+
+
+.tabla td button {
+    background-color: red;
+    border: 0px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.tabla td button:hover {
+    transform: translateY(1px);
+    background-color: rgb(255, 65, 65);
+    transition: 0.1s;
+}
+
+.divCart {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0px 100px 100px 0px;
+    transform: translateX(-100px);
+}
+
+.divCart button {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 20px;
+}
+
+.divCart button:hover {
+    background-color: #00457e;
+    transform: translateY(1px);
+    transform: 0, 1;
+}
+
+.finalizarC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.finalizarC .inputs div input {
+    margin: 10px;
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.inputs div p{
+    font-weight: bold;
+    text-align: center;
+}
+.inputs div{
+    margin-bottom: 10px;
+}
+
+.botonFinalizar {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 50px 0px;
+}
+.botonFinalizar button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: #005499;
+}
+
+.botonFinalizar button:hover{
+    background-color: #006cc4;
+    transform: translateY(1px);
+    transition: 0,1s;
+}
+.swalCustomButton {
+    background-color: rgb(0, 197, 0);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}

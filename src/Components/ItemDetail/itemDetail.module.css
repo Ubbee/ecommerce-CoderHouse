@@ -1,0 +1,31 @@
+.itemD{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 00px;
+    padding: 150px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemD img{
+    width: 400px;
+    margin: 40px;
+}
+
+
+.itemD div .itemDButton{
+    background-color: rgb(0, 255, 0);
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.itemDButton:hover{
+    background-color: rgb(67, 255, 67);
+    padding: 7.7px;
+    transition: 0.1s;
+}
