@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   build: {
     rollupOptions: {
-      external: ['history', 'sweetalert2', 'sweetalert2/dist/sweetalert2.min.css']
+      external: [ 'sweetalert2', 'sweetalert2/dist/sweetalert2.min.css']
     }
   }
 })
